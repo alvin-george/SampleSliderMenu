@@ -12,6 +12,9 @@
 		18919C2C1EF3CA5A006E3D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18919C2A1EF3CA5A006E3D12 /* Main.storyboard */; };
 		18919C2E1EF3CA5A006E3D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18919C2D1EF3CA5A006E3D12 /* Assets.xcassets */; };
 		18919C311EF3CA5A006E3D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18919C2F1EF3CA5A006E3D12 /* LaunchScreen.storyboard */; };
+		18919C391EF3D03D006E3D12 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18919C381EF3D03D006E3D12 /* SideMenuController.swift */; };
+		18919C3C1EF3D075006E3D12 /* SideMenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18919C3A1EF3D075006E3D12 /* SideMenuTableCell.swift */; };
+		18919C3D1EF3D075006E3D12 /* SideMenuProfileTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18919C3B1EF3D075006E3D12 /* SideMenuProfileTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		18919C2D1EF3CA5A006E3D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18919C301EF3CA5A006E3D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18919C321EF3CA5A006E3D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18919C381EF3D03D006E3D12 /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		18919C3A1EF3D075006E3D12 /* SideMenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableCell.swift; sourceTree = "<group>"; };
+		18919C3B1EF3D075006E3D12 /* SideMenuProfileTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuProfileTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,9 @@
 		18919C251EF3CA5A006E3D12 /* SampleSliderMenu */ = {
 			isa = PBXGroup;
 			children = (
+				18919C3E1EF3D079006E3D12 /* SliderMeuCel */,
 				18919C261EF3CA5A006E3D12 /* AppDelegate.swift */,
+				18919C381EF3D03D006E3D12 /* SideMenuController.swift */,
 				18919C281EF3CA5A006E3D12 /* ViewController.swift */,
 				18919C2A1EF3CA5A006E3D12 /* Main.storyboard */,
 				18919C2D1EF3CA5A006E3D12 /* Assets.xcassets */,
@@ -62,6 +70,15 @@
 				18919C321EF3CA5A006E3D12 /* Info.plist */,
 			);
 			path = SampleSliderMenu;
+			sourceTree = "<group>";
+		};
+		18919C3E1EF3D079006E3D12 /* SliderMeuCel */ = {
+			isa = PBXGroup;
+			children = (
+				18919C3B1EF3D075006E3D12 /* SideMenuProfileTableCell.swift */,
+				18919C3A1EF3D075006E3D12 /* SideMenuTableCell.swift */,
+			);
+			name = SliderMeuCel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18919C3C1EF3D075006E3D12 /* SideMenuTableCell.swift in Sources */,
 				18919C291EF3CA5A006E3D12 /* ViewController.swift in Sources */,
+				18919C3D1EF3D075006E3D12 /* SideMenuProfileTableCell.swift in Sources */,
+				18919C391EF3D03D006E3D12 /* SideMenuController.swift in Sources */,
 				18919C271EF3CA5A006E3D12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
